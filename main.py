@@ -29,7 +29,8 @@ def predict(data: PersonalityInput):
             data.Social_event_attendance,
             data.Going_outside,
             data.Drained_after_socializing,
-            data.Friends_circle_size
+            data.Friends_circle_size,
+            data.Post_frequency
         ]])
 
         # Predict with primary model
