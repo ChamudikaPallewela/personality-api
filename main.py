@@ -18,6 +18,7 @@ class PersonalityInput(BaseModel):
     Going_outside: float
     Drained_after_socializing: int
     Friends_circle_size: float
+    Post_frequency : float
 
 @app.post("/predict")
 def predict(data: PersonalityInput):
